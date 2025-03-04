@@ -19,12 +19,14 @@ CUDA_VISIBLE_DEVICES=0 python inference.py \
     --vision-tower-path /path/to/your/siglip-so400m-patch14-384
 ```
 
-## Requirements
+## Installation
 
-- CUDA-compatible GPU
-- Python 3.8+
-- PyTorch 2.0+
-- All dependencies from the original LLaVA repository
+```bash
+conda create -n llava-next-inference python=3.10 -y
+conda activate llava-next-inference
+pip install --upgrade pip  # Enable PEP 660 support.
+pip install -e ".[train]"
+```
 
 ## Implementation Details
 
