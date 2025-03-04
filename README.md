@@ -1,8 +1,8 @@
-# LLaVA Local Vision Tower Support
+# 🖼️ LLaVA Inference & Local Vision Tower Support ✨
 
 This repository extends the original LLaVA model with the capability to load vision tower models from local paths.
 
-## Features
+## ✅ Features
 
 - Added support for loading vision tower models from local paths in `llava/model/builder.py`
 - Provided a simplified `inference.py` script for easy model inference
